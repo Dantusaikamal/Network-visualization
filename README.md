@@ -12,8 +12,8 @@ So what's up with Developer story?
 It gives you a way to showcase your skills, and maybe one day find a job.</li>
 It replaces the existing, traditionally-structured CV with something that you can use even if you aren’t currently looking for a job.</li>
 It does a better job of showing what matters to developers and employers than traditional CVs by focusing on what you’ve done and not just where you’ve worked or studied.
-
+```
 About the visualization:
-
+```
 Enough with the background information Now that you know what's Stackoverflow and Developer stories, let me get back to my visualization. My visualization represents the most commonly used tags in developer story profile. I grouped the tags which are mentioned together in the developer stories and color coded them to stand out from each other. This visualization is taken from random profiles on Stackoverflow. Please keep in mind that more than 500 profiles are taken and filtered out. 500 may not be a huge number but it still makes a point.
  
