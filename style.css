@@ -1,0 +1,62 @@
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none;}
+
+/* .mid-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+ul {
+    margin: 0; padding: 0;
+}
+
+li {
+    margin: 0; padding: 0;
+}
+
+.kamal{
+    max-height: 30px;
+}
+.w3-myfont {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+.kamal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.icon-team i {
+    font-size: 25px;
+    margin: 25px 6px;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.icon-team i:hover {
+    color: #53c5d5;
+    cursor: pointer;
+}
+.icon-img {
+    text-align: center;
+}
+.icon-img i {
+    color: #00c6d7;
+    font-size: 35px;
+    border: 2px solid #00c6d7;
+    border-radius: 50%;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+    div {
+      font-size: 20px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    div {
+      font-size: 20px;
+    }
+  }

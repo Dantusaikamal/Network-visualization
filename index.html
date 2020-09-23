@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Stack Tags Visualization</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+ <!--Owl Carousel-->
+ <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+ <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+<!--Font Awsome-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">DESCRIPTION</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">VISUALIZATION</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    </div>
+    <!-- <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a> -->
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">DESCRIPTION</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">VISUALIZATION</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center w3-grayscale-min">
+    <img src="images/img1.jpg" style="width:100%">
+    <div class="w3-display-middle w3-container w3-text-white w3-padding-32 w3-hide-small w3-large">
+      <h1 style="text-shadow:1px 1px 0 #444">Web Development</h3>
+      <p  style="text-shadow:1px 1px 0 #797979"><b>Started my journey by developing various web pages.</b> </p>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="images/img2.jpg" style="width:100%">
+    <div class="w3-display-middle w3-container w3-text-white w3-padding-32 w3-hide-small w3-large">
+        <h1 style="text-shadow:1px 1px 0 #444">Graphic design and Web Designing</h3>
+      <p style="text-shadow:1px 1px 0 #0f0f0f"><b>I enjoy designing a lot. Be it Graphic designing with Lightroom or Web designing with After Effects.</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="images/img3.jpg" style="width:100%">
+    <div class="w3-display-middle w3-container w3-text-black w3-padding-32 w3-hide-small w3-large">
+        <h1 style="text-shadow:1px 1px 0 #444">Data Science and Analytics</h3>
+      <p><b>This is what I'm currently working on. <br> AI, ML have always been fascinating to me and <br> I believe Datascience is a great career option.</b></p>    
+    </div>
+  </div>
+
+  <!-- Description -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">Stack Tags Visualization</h2>
+    <p class="w3-opacity"><i>Sai Kamal</i></p>
+    <p class="w3-justify">I created this network visualization using flourish studio for my final assignment for Data visualization course by University of Illinois.
+         I define data vizualisation as the art of representing boring numbers and data in an interesting way. I gathered the required dataset from Kaggle. The data I chose to visualize represents the most common tags used in Stackoverflow's Developer Stories. 
+         Developer story was launched on Stackoverflow in the year 2016. For those who do not know what Stack Overflow is, it is a place where developers come to build and share knowledge, and as a result, build reputation for those contributions. It's also a place where you can help write Documentation,
+         join a Team that you contribute to, or even look for a job. Stackoverflow quotes, "Now, with the new developer story, we're making it about who you are and what you do, and that's available to everyone regardless of how you use the site." Stackoverflow can sometimes be a life saver because of the incredible amount of 
+         solutions it has.<br>
+         So what's up with Developer story?   
+         <ul>
+<li>It gives you a way to showcase your skills, and maybe one day find a job.</li>
+<li>It replaces the existing, traditionally-structured CV with something that you can use even if you aren’t currently looking for a job.</li>
+<li>It does a better job of showing what matters to developers and employers than traditional CVs by focusing on what you’ve done and not just where you’ve worked or studied.</li>
+</ul>
+Enough with the background information Now that you know what's Stackoverflow and Developer stories, let me get back to my visualization. My visualization represents the most commonly used tags in developer story profile. I grouped the tags which are mentioned together in the developer stories and 
+    color coded them to stand out from each other. This visualization is taken from random profiles on Stackoverflow. Please keep in mind that more than 500 profiles are taken and filtered out. 500 may not be a huge number but it still makes a point.
+</p>
+ 
+  </div>
+ 
+    
+  <!-- The Visualization Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:1000px">
+        <div class="flourish-embed flourish-network" data-src="visualisation/3407080" data-url="https://flo.uri.sh/visualisation/3407080/embed" aria-label=""><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+    </div>   
+  </div>
+
+     <!---About me-->
+  <div class="w3-display-container w3-center w3-section"></div>
+  <h1 class="w3-wide w3-center w3-panel w3-black">ABOUT ME</h2>
+  <div class="w3-container">
+    <img src="images/kamal.jpeg" class="w3-circle w3-center" alt="Sai kamal" style="width:20% ;  display: block; margin-left: auto; margin-right: auto;">
+  </div>
+        
+        <h3 class="w3-center w3-padding-large	">D Venkata Sai Kamal</h3>
+        <p class="w3-opacity w3-center">Developer</p>
+        <p class=".w3-myfont w3-center">A tech enthusiast and an AI, ML geek. Passionate about Datascience and currently on the journey to become a full stack developer. </p>
+        <div class="icon-team w3-center" style="font-size: 25px; margin: 25px 20px;">
+            <a href="https://github.com/Dantusaikamal"><i class="fab fa-github-square"></i></a>
+
+            <a href="https://www.linkedin.com/in/sai-kamal-a4846a114/"><i class="fab fa-linkedin"></i></a>
+
+            <a href="https://code.swecha.org/DantusaiKamal"><i class="fab fa-gitlab"></i></a>
+
+            <a href="https://www.instagram.com/sai_kamal7/"><i class="fab fa-instagram"> </i></a>
+        </div>
+  </div>
+   
+  <!-- The Contact Section -->
+  <div class="w3-black">
+  <div class="w3-container w3-content w3-padding-64 " style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Interested to talk to me about any queries? Drop a note!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Hyderabad, India<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: dantusaikamal@gmail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-green w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+<p class="w3-medium">All rights reserved - <a href="https://github.com/Dantusaikamal" target="_blank">Sai kamal.</a></p>
+</footer>
+
+<!-- Link for JS: -->
+<script src="https://code.jquery.com/jquery-1.8.3.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="bootstrap/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+<script src="js/owl.js"></script>
+<script src="js/fixed-header.js"></script>
+
+<script src="main.js"></script>
+</body>
+</html>
