@@ -1,7 +1,9 @@
 # Network-vizualization
-This repository contains my graphic visualization project that I've submitted as my final project for Data visualization course by University of Illinois. Feel free to use this visualization. It would be helpful if you provide credits to me :)
 
-I define data vizualisation as the art of representing boring numbers and data in an interesting way. I gathered the required dataset from Kaggle. The data I chose to visualize represents the most common tags used in Stackoverflow's Developer Stories. 
+*This repository contains my graphic visualization project that I've submitted as my final project for Data visualization course by University of Illinois. Feel free to use this visualization. It would be helpful if you provide credits to me* :)
+
+#### I define data vizualisation as the art of representing boring numbers and data in an interesting way. 
+I gathered the required dataset from Kaggle. The data I chose to visualize represents the most common tags used in Stackoverflow's Developer Stories. 
 
 Developer story was launched on Stackoverflow in the year 2016. For those who do not know what Stack Overflow, it is a place where developers come to build and share knowledge, and as a result, build reputation for those contributions. It's also a place where you can help write Documentation, join a Team that you contribute to, or even look for a job. Now, with the new developer story, we're making it about who you are and what you do, and that's available to everyone regardless of how you use the site. Stackoverflow can sometimes be a life saver because of the incredible amount of 
 solutions it has.
